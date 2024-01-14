@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class OutputTest {
+   public static void main (String [] args) {
+      int numYears;
+      
+      // Our tests will run your program with input 2, then run again with input 5.
+      // Your program should work for any input, though.
+      Scanner scnr = new Scanner(System.in);
+      numYears = scnr.nextInt();
+      
+        System.out.println(numYears);
+
+   }
+}

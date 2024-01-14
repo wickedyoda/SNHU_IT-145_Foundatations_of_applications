@@ -6,26 +6,37 @@ public class BasicInput {
         int userInt = 0;
         double userDouble = 0.0;
 
-        char userChar = 'a'; // FIXME Define char and string variables similarly
+        char userChar = 'a';
         String userString = "New string";
 
-        System.out.println("Enter interger:  ");
-        userInt = scnr.nextInt();
-        System.out.println("Enter double:  ");
-        userDouble = scnr.nextDouble();
-        System.out.println("Enter character:  ");
-        userChar = scnr.next().charAt(0);
-        System.out.println("Enter string:  ");
-        userString = scnr.next();
+        try {
+            System.out.println("Enter integer: ");
+            userInt = scnr.nextInt();
 
-        // FIXME (1): Finish reading other items into variables, then output the four values on a single line separated by a space
-        System.out.println (userInt + " " + userDouble + " " + userChar + " " + userString);
+            System.out.println("Enter double: ");
+            userDouble = scnr.nextDouble();
 
+            System.out.println("Enter character: ");
+            userChar = scnr.next().charAt(0);
 
-        // FIXME (2): Output the four values in reverse
+            System.out.println("Enter string: ");
+            scnr.nextLine(); // Consume the newline character left by the previous nextDouble()
+            userString = scnr.nextLine();
 
-        // FIXME (3): Cast the double to an integer, and output that integer
+            // Output the four values on a single line separated by a space
+            System.out.println(userInt + " " + userDouble + " " + userChar + " " + userString);
 
-        return;
+            // Output the four values in reverse
+            System.out.println(userString + " " + userChar + " " + userDouble + " " + userInt);
+
+            // Cast the double to an integer and output that integer
+            int intFromDouble = (int) userDouble;
+            System.out.println("Casting double to int: " + intFromDouble);
+        } catch (java.util.InputMismatchException e) {
+            System.out.println("Invalid input. Please enter the correct data type.");
+            scnr.nextLine(); // Clear the input buffer
+        } finally {
+            scnr.close(); // Close the Scanner to prevent resource leak
+        }
     }
 }

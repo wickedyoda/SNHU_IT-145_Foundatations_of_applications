@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MathMethods",
+            "request": "launch",
+            "mainClass": "MathMethods",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_3a02e8d8"
+        },
+        {
+            "type": "java",
+            "name": "ShippingCalculator",
+            "request": "launch",
+            "mainClass": "ShippingCalculator",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_3a02e8d8"
+        },
+        {
+            "type": "java",
+            "name": "MathOperations",
+            "request": "launch",
+            "mainClass": "MathOperations",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_3a02e8d8"
+        },
+        {
+            "type": "java",
             "name": "BasicInput",
             "request": "launch",
             "mainClass": "BasicInput",

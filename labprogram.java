@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-public class labprogram {
+public class LabProgram {
 
     public static double drivingCost(double milesPerGallon, double dollarsPerGallon, double milesDriven) {
         return (milesDriven / milesPerGallon) * dollarsPerGallon;
     }
-
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
 

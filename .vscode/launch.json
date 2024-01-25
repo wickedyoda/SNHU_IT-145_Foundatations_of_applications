@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LabProgram",
+            "request": "launch",
+            "mainClass": "LabProgram",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_3a02e8d8"
+        },
+        {
+            "type": "java",
+            "name": "labprogram",
+            "request": "launch",
+            "mainClass": "labprogram",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_3a02e8d8"
+        },
+        {
+            "type": "java",
             "name": "MathMethods",
             "request": "launch",
             "mainClass": "MathMethods",

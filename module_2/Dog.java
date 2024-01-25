@@ -1,43 +1,16 @@
-package module_2;
+// to be submitted: module_2/Dog.java
 
-public class Dog {
-    public String name;
-    public int age;
-    public String breed;
+public class Dog extends Pet {
+    private String breed;
+    private int age;
     private int dogSpaceNumber;
     private double dogWeight;
     private boolean grooming;
-    
-    public Dog(String name, int age, String breed) {
-        this.name = name;
-        this.age = age;
+
+    public Dog(String name, String breed, int age) {
+        super(name);
         this.breed = breed;
-    }
-
-    public int getDogSpaceNumber() {
-        return dogSpaceNumber;
-    }
-
-    public void setDogSpaceNumber(int dogSpaceNumber) {
-        this.dogSpaceNumber = dogSpaceNumber;
-    }
-    
-    private int dogSpaceNumber;
-    
-    public int getDogSpaceNumber() {
-        return dogSpaceNumber;
-    }
-    
-    public void setDogSpaceNumber(int dogSpaceNumber) {
-        this.dogSpaceNumber = dogSpaceNumber;
-    }
-
-    public double getDogWeight() {
-        return dogWeight;
-    }
-
-    public void setDogWeight(double dogWeight) {
-        this.dogWeight = dogWeight;
+        this.age = age;
     }
 
     public boolean getGrooming() {
@@ -48,20 +21,6 @@ public class Dog {
         this.grooming = grooming;
     }
 
-    public Dog(String name, int age, String breed) {
-        this.name = name;
-        this.age = age;
-        this.breed = breed;
-    }
-
-    public int getDogSpaceNumber() {
-        return dogSpaceNumber;
-    }
-
-    public void setDogSpaceNumber(int dogSpaceNumber) {
-        this.dogSpaceNumber = dogSpaceNumber;
-    }
-
     public double getDogWeight() {
         return dogWeight;
     }
@@ -70,30 +29,20 @@ public class Dog {
         this.dogWeight = dogWeight;
     }
 
-    public boolean getGrooming() {
-        return grooming;
+    public String getBreed() {
+        return breed;
     }
 
-    public void setGrooming(boolean grooming) {
-        this.grooming = grooming;
-    }
-
-    public void setDogSpaceNumber(int dogSpaceNumber) {
-        this.dogSpaceNumber = dogSpaceNumber;
-    }
-
-    public double getDogWeight() {
-        return dogWeight;
-    }
-
-    public void setDogWeight(double dogWeight) {
-        this.dogWeight = dogWeight;
-    }
-
-    public Dog(String name, int age, String breed) {
-        this.name = name;
-        this.age = age;
+    public void setBreed(String breed) {
         this.breed = breed;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public int getDogSpaceNumber() {

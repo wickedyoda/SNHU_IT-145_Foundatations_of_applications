@@ -1,9 +1,17 @@
-numBoxes  = 0;
-numApples = 9; 
+switch (userVal) {
+   case 1:
+      numItems = 5; 
+      break;
 
-if (numApples < 10) {
-   numBoxes = 2;
-}
-if (numApples < 20) {
-   numBoxes = numBoxes + 1;
+   case 3:
+      numItems = 12; 
+      break;
+
+   case 4:
+      numItems = 99;
+      break;
+
+   default:
+      numItems = 55;
+      break;
 }

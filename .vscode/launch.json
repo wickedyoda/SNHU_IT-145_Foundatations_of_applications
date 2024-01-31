@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberChecker",
+            "request": "launch",
+            "mainClass": "NumberChecker",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
             "name": "ifElseOutput",
             "request": "launch",
             "mainClass": "ifElseOutput",

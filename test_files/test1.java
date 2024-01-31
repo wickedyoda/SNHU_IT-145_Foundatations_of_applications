@@ -1,9 +1,9 @@
-if ((userChannel >= 2) && (userChannel <= 499)) {
-    channelType = 's';
- }
- else if ((userChannel >= 1002) && (userChannel <= 1499)) {
-    channelType = 'h';
- }
- else {
-    channelType = 'e';
- }
+numBoxes  = 0;
+numApples = 9; 
+
+if (numApples < 10) {
+   numBoxes = 2;
+}
+if (numApples < 20) {
+   numBoxes = numBoxes + 1;
+}

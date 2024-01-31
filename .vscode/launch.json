@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringSize",
+            "request": "launch",
+            "mainClass": "StringSize",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
             "name": "TollCalc",
             "request": "launch",
             "mainClass": "TollCalc",

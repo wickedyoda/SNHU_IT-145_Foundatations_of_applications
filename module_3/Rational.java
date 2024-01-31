@@ -1,17 +1,19 @@
 import java.util.Scanner;
 
 public class Relational {
-public static void main (String [] args) {
-    int numInches = 0;
-    
-    Scanner input = new Scanner(System.in);
-    numInches = input.nextInt(); // Program will be tested with values: 10, 11, 12, 13, 14.
-    
-    if (numInches <= 12) {
-        System.out.println("Foot or less");
+    public static void main(String[] args) {
+        int userLevel = 0;
+        int userPoints = 0;
+
+        Scanner input = new Scanner(System.in);
+        userLevel = input.nextInt(); // Program will be tested with values: 15, 20, 24, 25, 26, 30
+
+        if (userLevel >= 25) {
+            userPoints = 0;
+        } else {
+            userPoints = 10;
+        }
+
+        System.out.println(userPoints);
     }
-    else {
-        System.out.println("More than a foot");
-    }
-}
 }

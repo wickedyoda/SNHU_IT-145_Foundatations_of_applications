@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LogicalTest",
+            "request": "launch",
+            "mainClass": "LogicalTest",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
+            "name": "AgeChecker",
+            "request": "launch",
+            "mainClass": "AgeChecker",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
             "name": "RangeDetector",
             "request": "launch",
             "mainClass": "RangeDetector",

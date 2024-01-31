@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 public class Relational {
 public static void main (String [] args) {
-    int userNum = 0;
+    int numInches = 0;
     
     Scanner input = new Scanner(System.in);
-    userNum = input.nextInt(); // Program will be tested with values: -9, -10, -11, -8.
+    numInches = input.nextInt(); // Program will be tested with values: 10, 11, 12, 13, 14.
     
-    if (userNum <= -10) {
-        System.out.println("less than or equal to -10");
+    if (numInches <= 12) {
+        System.out.println("Foot or less");
     }
     else {
-        System.out.println("more than -10");
+        System.out.println("More than a foot");
     }
 }
 }

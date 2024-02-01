@@ -7,7 +7,11 @@ public class FindAlpha {
 
         passCode = scnr.next();
 
-        // insert code here//
-
+        if (Character.isLetter(passCode.charAt(0))) {
+            System.out.println("Alphabetic at 0");
+        }
+        if (Character.isLetter(passCode.charAt(1))) {
+            System.out.println("Alphabetic at 1");
+        }
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConditionalTest",
+            "request": "launch",
+            "mainClass": "ConditionalTest",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
             "name": "FindAlpha",
             "request": "launch",
             "mainClass": "FindAlpha",

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BreakAndContinue/BreakAndContinue.iml" filepath="$PROJECT_DIR$/BreakAndContinue/BreakAndContinue.iml" />
       <module fileurl="file://$PROJECT_DIR$/SNHU_IT-145_Foundatations_of_applications.iml" filepath="$PROJECT_DIR$/SNHU_IT-145_Foundatations_of_applications.iml" />
     </modules>
   </component>

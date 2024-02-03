@@ -1,21 +1,32 @@
 
 import java.util.Scanner;
 
-public class DoProduct {
-    public static void main(String[] args) {
-        Scanner scnr = new Scanner(System.in);
-        int enteredValue;
-        int finalProduct;
+public class BreakAndContinue {
+   public static void main(String [] args){
+      Scanner scnr = new Scanner(System.in);
+      int result;
+      int stop;
+      int a;
+      int b;
 
-        finalProduct = 1;
+      stop = scnr.nextInt();
 
-        enteredValue = scnr.nextInt();
+      for (a = 2; a < 5; ++a) {
+         result = 1;
 
-        while (enteredValue > 0) {
-            finalProduct = finalProduct * enteredValue;
-            enteredValue = scnr.nextInt();
-        }
+         for (b = 0; b < 3; ++b) {
+            result *= a;
 
-        System.out.print("Product: " + finalProduct);
-    }
+            System.out.println(result);
+
+            if (result == stop) {
+               break;
+            }
+         }
+
+         if (result == stop) {
+            break;
+         }
+      }
+   }
 }

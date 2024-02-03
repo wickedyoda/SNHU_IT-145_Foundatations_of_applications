@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ForLoops",
+            "request": "launch",
+            "mainClass": "ForLoops",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
+            "name": "ForLoopOutput",
+            "request": "launch",
+            "mainClass": "ForLoopOutput",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
+            "name": "FindMatch",
+            "request": "launch",
+            "mainClass": "FindMatch",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
+            "name": "DoProduct",
+            "request": "launch",
+            "mainClass": "DoProduct",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
+            "name": "whileLoopOutput",
+            "request": "launch",
+            "mainClass": "whileLoopOutput",
+            "projectName": "SNHU_IT-145_Foundatations_of_applications_d8d47c10"
+        },
+        {
+            "type": "java",
             "name": "ConditionalTest",
             "request": "launch",
             "mainClass": "ConditionalTest",
